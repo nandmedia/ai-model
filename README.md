@@ -37,4 +37,18 @@ Copy
 Edit
 python app.py
 
-AI model will be running at http://localhost:5001
+6 . AI model will be running at http://localhost:5001
+
+
+---
+
+### **AI Model: `ai-model/requirements.txt` (for Python)**
+
+If your AI model is implemented using Python, you’ll need a `requirements.txt` file for managing dependencies:
+
+```txt
+tensorflow==2.7.0
+numpy==1.21.0
+pandas==1.3.0
+flask==2.0.1
+
